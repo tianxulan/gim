@@ -11,7 +11,7 @@
         <div>
             <hr class="rounded"> 
             <h3>Send message Area</h3>
-            <form onSubmit="submitOnClick()">
+            <form action="/action_page.php">
                 <label for="fname">Receiver IP:</label>
                 <input type="text" id="rip" name="rip"><br><br>
                 <label for="lname">Message:</label>
@@ -22,11 +22,8 @@
         </div>
         <div>
             <h3>Receive Message Area</h3>
-            <button onclick="checkMessageOnClick()">Check for new Message</button>
-            <br>
-            <b id="messageContent">Hello World</b>
+            <button>Check for new Message</button>
             <hr class="rounded"> 
         </div>
     </body>
-    <script src="script.js"></script> 
 </html>        
